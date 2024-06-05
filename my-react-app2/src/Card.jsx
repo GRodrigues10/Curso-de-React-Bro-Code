@@ -1,4 +1,4 @@
-import ProfilePic from './assets/luke-skywalker.webp'
+import ProfilePic from './assets/yoda.webp'
 function Card(){
     return(
         <div className="card">
