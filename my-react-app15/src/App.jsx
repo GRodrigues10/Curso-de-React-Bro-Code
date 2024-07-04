@@ -1,11 +1,12 @@
-import MyComponent from "./MyComponent"
-function App() {
+import React from 'react';
+import ToDoList from './toDoList.jsx';
 
+function App() {
   return (
     <>
-      <MyComponent> </MyComponent>
+      <ToDoList />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
