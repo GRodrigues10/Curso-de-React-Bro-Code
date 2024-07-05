@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.486));
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clock{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    text-align: center;
+}
