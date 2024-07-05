@@ -41,7 +41,7 @@ function MyComponent(){
 
     useEffect(()=>{
         document.title = `Size${width} x ${height}}`
-    }, [width, height])
+    }, [width, height  ])
 
   
        
