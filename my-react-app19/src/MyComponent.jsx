@@ -11,7 +11,7 @@ function MyComponent(){
     const inputRef3 = useRef(null);
 
     useEffect(()=>{
-        console.log('COMPONENTE RENDEREIZADO!');
+        console.log('COMPONENTE RENDERIZADO!');
     })
     function handleClick1(){
         inputRef1.current.focus();
